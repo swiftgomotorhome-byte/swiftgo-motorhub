@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftGo MotorHub - Drive Your Passion, We Deliver Excellence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="SwiftGo MotorHub Logo" class="logo-img">
+                <span class="logo-text">SwiftGo MotorHub</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#cars" class="nav-link">Browse Cars</a></li>
+                <li><a href="#upload" class="nav-link">Sell Your Car</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Drive Your Passion</h1>
+            <p class="hero-subtitle">We Deliver Excellence</p>
+            <p class="hero-description">Your one-stop destination for buying, selling, trading-in, and financing premium vehicles</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Browse Cars</button>
+                <button class="btn btn-secondary">Sell Your Car</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <i class="fas fa-car"></i>
+        </div>
+    </section>
+
+    <!-- Corporate Introduction -->
+    <section class="corporate-intro">
+        <div class="intro-container">
+            <h2>Welcome to SwiftGo MotorHub</h2>
+            <p class="intro-lead">Your Ultimate Automotive Solutions Partner</p>
+            
+            <div class="intro-content">
+                <p>At SwiftGo MotorHub, we believe that every journey begins with the perfect vehicle. Since our inception, we've been committed to providing exceptional automotive services that go beyond expectations. Whether you're looking to buy, sell, finance, or hire a vehicle, we're here to make your experience seamless and rewarding.</p>
+                
+                <p>Our mission is simple: <strong>"Drive Your Passion, We Deliver Excellence"</strong></p>
+                
+                <p>With years of industry expertise and a deep understanding of the automotive market, we've built a reputation for integrity, transparency, and customer-centric service. Every vehicle in our inventory is carefully selected to ensure quality and value, and our team of professionals is dedicated to helping you find exactly what you need.</p>
+            </div>
+
+            <div class="intro-stats">
+                <div class="stat">
+                    <h3>100+</h3>
+                    <p>Vehicles in Stock</p>
+                </div>
+                <div class="stat">
+                    <h3>1000+</h3>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="stat">
+                    <h3>24/7</h3>
+                    <p>Customer Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="services-container">
+            <h2>Our Services</h2>
+            <p class="section-subtitle">Comprehensive automotive solutions tailored to your needs</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Buy</h3>
+                    <p>Browse our extensive inventory of quality vehicles and find the perfect match for your lifestyle and budget.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Sell</h3>
+                    <p>Get competitive quotes for your vehicle. We handle everything from appraisal to paperwork with ease.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3>Trade-In</h3>
+                    <p>Upgrade to your dream car by trading in your current vehicle. Get top value and seamless transactions.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Finance</h3>
+                    <p>Flexible financing options with competitive rates. We work with top lenders to get you the best deals.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>Car Hire</h3>
+                    <p>Need a vehicle? Rent one of our well-maintained cars for your business or leisure travel needs.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-percent"></i>
+                    </div>
+                    <h3>Sell on Commission</h3>
+                    <p>Sell your car through our platform with just 1% commission. Maximize your returns with our marketing reach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Browse Cars Section -->
+    <section id="cars" class="cars-section">
+        <div class="cars-container">
+            <h2>Featured Vehicles</h2>
+            <p class="section-subtitle">Check out our latest collection</p>
+            <div class="cars-grid" id="carsGrid">
+                <!-- Cars will be loaded dynamically here -->
+            </div>
+            <div class="view-all">
+                <button class="btn btn-primary">View All Vehicles</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upload Cars Section -->
+    <section id="upload" class="upload-section">
+        <div class="upload-container">
+            <h2>List Your Vehicle</h2>
+            <p class="section-subtitle">Sell your car on SwiftGo MotorHub</p>
+            
+            <div class="upload-content">
+                <div class="upload-info">
+                    <h3>Why List With Us?</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Massive online visibility</li>
+                        <li><i class="fas fa-check"></i> Simple listing process</li>
+                        <li><i class="fas fa-check"></i> Professional marketing</li>
+                        <li><i class="fas fa-check"></i> Only 1% commission on sales</li>
+                        <li><i class="fas fa-check"></i> Dedicated support team</li>
+                        <li><i class="fas fa-check"></i> Quick payment after sale</li>
+                    </ul>
+                </div>
+
+                <form class="upload-form" id="uploadForm">
+                    <div class="form-group">
+                        <label for="carMake">Vehicle Make *</label>
+                        <input type="text" id="carMake" placeholder="e.g., Toyota, BMW" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="carModel">Vehicle Model *</label>
+                        <input type="text" id="carModel" placeholder="e.g., Camry, X5" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="carYear">Year *</label>
+                            <input type="number" id="carYear" placeholder="2023" min="1990" max="2099" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="carPrice">Price (KES) *</label>
+                            <input type="number" id="carPrice" placeholder="0" min="0" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="carMileage">Mileage (km) *</label>
+                            <input type="number" id="carMileage" placeholder="0" min="0" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="carTransmission">Transmission *</label>
+                            <select id="carTransmission" required>
+                                <option value="">Select Transmission</option>
+                                <option value="Manual">Manual</option>
+                                <option value="Automatic">Automatic</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="carDescription">Description *</label>
+                        <textarea id="carDescription" placeholder="Describe the condition and features of your vehicle" rows="5" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="carImages">Upload Images (up to 10) *</label>
+                        <div class="file-upload">
+                            <input type="file" id="carImages" accept="image/*" multiple required>
+                            <span>Click to upload or drag images here</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ownerName">Your Name *</label>
+                        <input type="text" id="ownerName" placeholder="Full Name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="ownerPhone">Phone Number *</label>
+                            <input type="tel" id="ownerPhone" placeholder="+254..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="ownerEmail">Email Address *</label>
+                            <input type="email" id="ownerEmail" placeholder="your@email.com" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-submit">List Vehicle</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2>Get in Touch</h2>
+            <p class="section-subtitle">We're here to help and answer any questions</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone & WhatsApp</h4>
+                            <p><a href="tel:+254728615795">+254 728 615 795</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:swiftgomotorhome@gmail.com">swiftgomotorhome@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Monday - Sunday: 8:00 AM - 8:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="socials">
+                            <a href="https://www.tiktok.com/@swiftgomotorhouse" target="_blank" class="social-link">
+                                <i class="fab fa-tiktok"></i> TikTok
+                            </a>
+                            <a href="https://www.facebook.com/swiftgomotorhome" target="_blank" class="social-link">
+                                <i class="fab fa-facebook"></i> Facebook
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="contactName">Your Name</label>
+                        <input type="text" id="contactName" placeholder="Full Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactEmail">Email Address</label>
+                        <input type="email" id="contactEmail" placeholder="your@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactPhone">Phone Number</label>
+                        <input type="tel" id="contactPhone" placeholder="+254..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactMessage">Message</label>
+                        <textarea id="contactMessage" placeholder="Tell us how we can help" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>SwiftGo MotorHub</h4>
+                <p>Your trusted partner in automotive excellence. Drive your passion, we deliver excellence.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#cars">Browse Cars</a></li>
+                    <li><a href="#upload">Sell Your Car</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Buy</a></li>
+                    <li><a href="#services">Sell</a></li>
+                    <li><a href="#services">Trade-In</a></li>
+                    <li><a href="#services">Finance</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="tel:+254728615795">+254 728 615 795</a></li>
+                    <li><a href="mailto:swiftgomotorhome@gmail.com">swiftgomotorhome@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SwiftGo MotorHub. All rights reserved. | Drive Your Passion, We Deliver Excellence</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
