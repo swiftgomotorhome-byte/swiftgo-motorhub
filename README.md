@@ -11,7 +11,7 @@ Welcome to the SwiftGo MotorHub marketing website! This is a professional, fully
 ### Contact Information
 - **Phone/WhatsApp**: +254 728 615 795
 - **Email**: swiftgomotorhome@gmail.com
-- **TikTok**: @swiftgomotorhouse
+- **TikTok**: @swiftgomotorhome
 - **Facebook**: swiftgomotorhome
 
 ## 📁 File Structure
@@ -22,7 +22,9 @@ swiftgo-motorhub/
 ├── styles.css          # Complete styling and responsive design
 ├── script.js           # JavaScript for interactivity and forms
 ├── README.md           # This file
-└── logo.png            # Company logo (to be added)
+└── <img width="1254" height="1254" alt="c61f9ccf-eaa8-4964-b7a1-95b996cb719b" src="https://github.com/user-attachments/assets/9a180f5e-4ed5-40f0-8b87-b7ada2a5f3cc" />
+            # <img width="1254" height="1254" alt="c61f9ccf-eaa8-4964-b7a1-95b996cb719b" src="https://github.com/user-attachments/assets/ba46bb3d-4419-4659-8c52-8115e58ab3c8" />
+
 ```
 
 ## 🚀 Features
@@ -58,8 +60,9 @@ swiftgo-motorhub/
 
 ### 5. **Featured Vehicles**
 - Dynamic car display grid
-- 6 sample cars loaded automatically
-- Car details (make, model, year, mileage, transmission, price)
+- <img width="960" height="584" alt="WhatsApp Image 2026-07-22 at 11 37 59 AM (1)" src="https://github.com/user-attachments/assets/30bb656b-65bf-43e2-b234-cbc8d4c0c5cc" />
+
+- Car details (Honda, vezel, 2021, 48,000, automatic, 4,199,999ksh)
 - Inquire and Wishlist buttons
 - WhatsApp integration for inquiries
 
@@ -68,7 +71,6 @@ swiftgo-motorhub/
 - Form fields:
   - Vehicle Make & Model
   - Year & Price
-  - Mileage & Transmission
   - Description
   - Image upload (drag & drop support)
   - Owner information
@@ -79,7 +81,7 @@ swiftgo-motorhub/
 - Contact information cards
 - Phone, Email, Hours, Social media
 - Contact form with WhatsApp integration
-- Location and availability
+- nairobi,kenya and availability
 
 ### 8. **Footer**
 - Quick links
