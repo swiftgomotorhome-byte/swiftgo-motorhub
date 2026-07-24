@@ -29,11 +29,13 @@ swiftgo-motorhub/
 
 ## 🚀 Features
 
-### 1. **Navigation Bar**
+### 1. **<img width="1254" height="1254" alt="c61f9ccf-eaa8-4964-b7a1-95b996cb719b" src="https://github.com/user-attachments/assets/e6209158-dca1-4ee1-9116-9c794e326650" />
+**
 - Sticky navigation with smooth scrolling
 - Mobile hamburger menu
 - Active section indicator
-- Logo and company branding
+- <img width="1254" height="1254" alt="c61f9ccf-eaa8-4964-b7a1-95b996cb719b" src="https://github.com/user-attachments/assets/e23bb436-a6e9-4301-b59c-831de54f70e4" />
+
 
 ### 2. **Hero Section**
 - Compelling headline: "Drive Your Passion"
