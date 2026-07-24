@@ -1,0 +1,141 @@
+{
+  "company": {
+    "name": "SwiftGo MotorHub",
+    "tagline": "Drive Your Passion, We Deliver Excellence",
+    "description": "Your one-stop destination for buying, selling, trading-in, and financing premium vehicles"
+  },
+  "contact": {
+    "phone": "+254728615795",
+    "email": "swiftgomotorhome@gmail.com",
+    "whatsapp": "+254728615795",
+    "hours": "Monday - Sunday: 8:00 AM - 8:00 PM"
+  },
+  "social": {
+    "tiktok": "https://www.tiktok.com/@swiftgomotorhouse",
+    "facebook": "https://www.facebook.com/swiftgomotorhome"
+  },
+  "services": [
+    {
+      "id": "buy",
+      "name": "Buy",
+      "icon": "fa-shopping-cart",
+      "description": "Browse our extensive inventory of quality vehicles and find the perfect match for your lifestyle and budget."
+    },
+    {
+      "id": "sell",
+      "name": "Sell",
+      "icon": "fa-handshake",
+      "description": "Get competitive quotes for your vehicle. We handle everything from appraisal to paperwork with ease."
+    },
+    {
+      "id": "trade-in",
+      "name": "Trade-In",
+      "icon": "fa-exchange-alt",
+      "description": "Upgrade to your dream car by trading in your current vehicle. Get top value and seamless transactions."
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "icon": "fa-credit-card",
+      "description": "Flexible financing options with competitive rates. We work with top lenders to get you the best deals."
+    },
+    {
+      "id": "hire",
+      "name": "Car Hire",
+      "icon": "fa-key",
+      "description": "Need a vehicle? Rent one of our well-maintained cars for your business or leisure travel needs."
+    },
+    {
+      "id": "commission",
+      "name": "Sell on Commission",
+      "icon": "fa-percent",
+      "description": "Sell your car through our platform with just 1% commission. Maximize your returns with our marketing reach."
+    }
+  ],
+  "stats": [
+    {
+      "number": "100+",
+      "label": "Vehicles in Stock"
+    },
+    {
+      "number": "1000+",
+      "label": "Happy Customers"
+    },
+    {
+      "number": "24/7",
+      "label": "Customer Support"
+    }
+  ],
+  "sampleCars": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2023,
+      "price": 2500000,
+      "mileage": 15000,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 2,
+      "make": "BMW",
+      "model": "X5",
+      "year": 2022,
+      "price": 4200000,
+      "mileage": 25000,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 3,
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2023,
+      "price": 1800000,
+      "mileage": 8000,
+      "transmission": "Manual"
+    },
+    {
+      "id": 4,
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2022,
+      "price": 3500000,
+      "mileage": 30000,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 5,
+      "make": "Nissan",
+      "model": "Qashqai",
+      "year": 2023,
+      "price": 2200000,
+      "mileage": 12000,
+      "transmission": "Automatic"
+    },
+    {
+      "id": 6,
+      "make": "Volkswagen",
+      "model": "Golf",
+      "year": 2021,
+      "price": 1600000,
+      "mileage": 45000,
+      "transmission": "Manual"
+    }
+  ],
+  "colors": {
+    "primary": "#dc2626",
+    "secondary": "#000000",
+    "accent": "#1f2937",
+    "lightGray": "#f3f4f6",
+    "textDark": "#1f2937",
+    "textLight": "#6b7280"
+  },
+  "features": {
+    "enableWishlist": true,
+    "enableWhatsAppIntegration": true,
+    "enableContactForm": true,
+    "enableCarUpload": true,
+    "enableMobileMenu": true,
+    "enableSmoothScroll": true
+  }
+}
